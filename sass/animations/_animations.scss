@@ -1,0 +1,67 @@
+@supports ((-webkit-transform: translate(-5vw,-5vh)) or (transform: translate(-5vw,-5vh))){
+
+    
+    @-webkit-keyframes pulsations {
+
+        100% {
+            -webkit-transform: scale(1.08);
+                    transform: scale(1.08);
+        }
+    }
+
+    
+    @keyframes pulsations {
+
+        100% {
+            -webkit-transform: scale(1.08);
+                    transform: scale(1.08);
+        }
+    }
+
+    .hidden-left {
+        opacity: 0;
+        -webkit-transform: translate(-20vh, 0);
+            -ms-transform: translate(-20vh, 0);
+                transform: translate(-20vh, 0);
+       -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+               transition: all 0.3s ease;
+
+        &.animOn {
+            opacity: 1;
+            -webkit-transform: translate(0);
+                -ms-transform: translate(0);
+                    transform: translate(0);
+        }
+    }
+
+    .hidden-right {
+        opacity: 0;
+        -webkit-transform: translate(20vh, 0);
+            -ms-transform: translate(20vh, 0);
+                transform: translate(20vh, 0);
+       -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+               transition: all 0.3s ease;
+
+        &.animOn {
+            opacity: 1;
+            -webkit-transform: translate(0);
+                -ms-transform: translate(0);
+                    transform: translate(0);
+        }
+    }
+
+
+    .hidden-in {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+
+        &.animOn {
+            opacity: 1;
+        }
+    }
+
+}

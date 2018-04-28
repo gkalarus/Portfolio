@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+        <div class="overlay"></div>
+        <div class="slides-container">
+            <img src="./img/slide1.jpeg" alt="">
+            <img src="./img/slide2.jpeg" alt="">
+            <img src="./img/slide3.jpg" alt="">
+        </div>
+
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">Grzegorz Kalarus</p>
+                <p class="sub typed"></p>
+            </div>
+        </div>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#slides">Grzegorz Kalarus</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/about.jpg" class="aboutImage" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h4>My name is Grzegorz Kalarus</h4>
+                    <p>Ipsum ipsum reprehenderit do elit dolore tempor ipsum aute sunt nulla aliquip dolor.Occaecat mollit et
+                        velit sint pariatur exercitation dolor reprehenderit est sunt consequat quis magna ipsum.Magna laboris
+                        pariatur et magna minim ad deserunt eu irure eu in proident sint nulla.</p>
+                    <p>Magna minim ad deserunt eu irure eu in proident sint nulla.Do Lorem voluptate nulla aute magna amet laborum
+                        ut non est ipsum in.Proident officia cillum occaecat minim velit eiusmod ut.Consequat nulla commodo
+                        cillum labore proident minim eu cupidatat labore fugiat irure in amet ea.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+        <header>
+            <h2 class="hidden-in">Umiejętności</h2>
+        </header>
+        <div class="container">
+            <div class="row top-buffer">
+                <div class="col-md-4 text-center hidden-left">
+                    <img src="./img/html.png" alt="Logo HTML." class="skillIcon">
+                    <div>
+                        <h3>HTML5</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-in">
+                    <img src="./img/css.png" alt="Logo CSS." class="skillIcon">
+                    <div>
+                        <h3>CSS3</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-right">
+                    <img src="./img/js.png" alt="Logo JavaScripta." class="skillIcon">
+                    <div>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-buffer">
+                <div class="col-md-4 text-center hidden-left">
+                    <img src="./img/jquery.png" alt="Logo jQuery." class="skillIcon">
+                    <div>
+                        <h3>jQuery</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-in">
+                    <img src="./img/rwd.png" alt="Logo RWD." class="skillIcon">
+                    <div>
+                        <h3>Responsive Web Design</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-right">
+                    <img src="./img/sass.png" alt="Logo SASS." class="skillIcon">
+                    <div>
+                        <h3>SASS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-buffer">
+                <div class="col-md-4 text-center hidden-left">
+                    <img src="./img/ajax.png" alt="Logo Ajax." class="skillIcon">
+                    <div>
+                        <h3>AJAX</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-in">
+                    <img src="./img/Git.png" alt="Logo Git." class="skillIcon">
+                    <div>
+                        <h3>Git</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-right">
+                    <img src="./img/webpack.png" alt="Logo Webpack." class="skillIcon">
+                    <div>
+                        <h3>Webpack</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-buffer">
+                <div class="col-md-4 text-center hidden-left">
+                    <img src="./img/npm.png" alt="Logo NPM." class="skillIcon">
+                    <div>
+                      <h3>Node package manager</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-in">
+                    <img src="./img/bootstrap.png" alt="Logo Node.js." class="skillIcon">
+                    <div>
+                      <h3>Bootstrap</h3>
+                      <p></p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden-right">
+                    <img src="./img/react.png" alt="Logo React." class="skillIcon">
+                    <div>
+                      <h3>React</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>PORTFOLIO</h2>
+                </div>
+
+                <div class="filter">
+                    <ul id="filters">
+                        <li>
+                            <a href="#" data-filter="*" class="current">ALL</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".apps">Apps</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".me">Me</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".websites">Websites</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="itemsContainer">
+                    <ul class="items">
+                        <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnail/mini.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/max.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute flamingo">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+                        <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnail/mini.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/max.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute flamingo">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+                        <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnail/mini.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/max.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute flamingo">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+                        <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnail/mini.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/max.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute flamingo">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+                        <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnail/mini.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/max.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute flamingo">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+                        <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnail/mini.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/max.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute flamingo">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+        <div class="col-md-12 text-center">
+            <p class="subHeading">Like what you see?</p>
+            <h2>I'd love to hear from you!</h2>
+            <a href="mailTo:kalarus.g@gmail.com" class="contactButton">GET IN TOUCH!</a>
+        </div>
+    </div>
+    
+
+
+    <div class="copyrightSection">
+        <div class="col-md-12 text-center">
+            <p>&copy; Copyright Grzegorz Kalarus 2018</p>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/JavaScript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
