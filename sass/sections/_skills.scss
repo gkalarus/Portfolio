@@ -1,23 +1,21 @@
-.skillsSection,
-.contactSection {
+.skillsSection {
     background-color: #1A3C40;
     color: #fff;
 }
 
 #skills {
     text-align: center;
-    margin-left: 10px;
 
     header {
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .skillIcon {
         -webkit-animation: pulsations 1s infinite alternate linear;
                 animation: pulsations 1s infinite alternate linear;
     }
-    
+
     .top-buffer { 
         margin-top:60px;
     }

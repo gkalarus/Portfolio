@@ -1,3 +1,9 @@
+.contactSection {
+    background-color: #1A3C40;
+    color: #fff;
+    padding: 1px 0;
+}
+
 .contactButton {
     color: #fff;
     padding: 15px 20px;
@@ -11,4 +17,27 @@
     text-decoration: none;
     color: #e74c3c;
     background-color: #fff;
+}
+
+
+.socialMedia {
+    text-align: center;
+    width: 100%;
+
+    .fab {
+        font-size: 40px;
+        margin-top: 40px;
+        margin-right: 10px;
+        color: #fff;
+    }
+
+    a {
+        color: #bdc3c7;
+        display: block;
+    }
+    
+    li {
+        display: inline-block;
+        padding: 5px;
+    }
 }
