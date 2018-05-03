@@ -9,6 +9,6 @@
   "author": "Grzegorz Kalarus",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.8.3"
+    "node-sass": "^4.9.0"
   }
 }

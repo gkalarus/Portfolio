@@ -117,7 +117,7 @@
         z-index: 3;
 
         i {
-            color: #fff;
+            color: $color-primary-ligth;
             font-size: 20px;
             margin-top: 9px;
         }
@@ -125,4 +125,6 @@
 
 }
 
-
+#portfolio {
+    background-color: $color-primary-ligth;
+}

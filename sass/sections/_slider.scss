@@ -3,7 +3,7 @@
     height: 100%;
     position: absolute;
     z-index: 3;
-    background-color: rgba(0, 0, 0, .4)
+    background-color: rgba($color-black, .4);
 }
 
 .slides-navigation {
@@ -39,8 +39,8 @@
     
     .heading {
         p {
-            color: #fff;
-            text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+            color: $color-white;
+            text-shadow: 0 2px 5px rgba($color-black, .4);
             font-weight: 100;
             letter-spacing: 7px;
         }

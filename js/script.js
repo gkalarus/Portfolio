@@ -22,27 +22,30 @@ $(document).ready(function() {
     });
 
     // Scroll magic ///////////////////////////////////
-
-    var animation =  $('*[class*="hidden"]');
+    jQuery(function() { // wait for document ready
+   
+        var animation =  $('*[class*="hidden"]');
   
 
-    //ADD FUNCTIONS
-    animation.each(triggerAnimationOnScroll);
+        //ADD FUNCTIONS
+        animation.each(triggerAnimationOnScroll);
+    
+        function triggerAnimationOnScroll() {
+    
+            var controller = new ScrollMagic.Controller();
+            var scene = new ScrollMagic.Scene({
+    
+                triggerElement: this,
+                triggerHook: 0.75,
+            })
+            .setClassToggle(this, 'animOn')
+            .addTo(controller);  
+        }
 
-    function triggerAnimationOnScroll() {
+    });
 
-        var controller = new ScrollMagic.Controller();
-        var scene = new ScrollMagic.Scene({
 
-            triggerElement: this,
-            triggerHook: 0.83,
-            // duration: '87%'
-        })
-        .setClassToggle(this, 'animOn')
-        .addTo(controller);  
-    }
-
-    //////////////////////////////////////////////
+    // ////////////////////////////////////////////
 
     $('[data-fancybox]').fancybox();
 
