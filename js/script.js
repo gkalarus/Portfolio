@@ -6,6 +6,7 @@ $(window).on('load', function() {
 
 $(document).ready(function() {
     
+    ///////////////////////SUPERSLIDES////////////////////////////////
 
     $('#slides').superslides({
         animation: 'fade',
@@ -21,13 +22,11 @@ $(document).ready(function() {
         showCursor: false
     });
 
-    // Scroll magic ///////////////////////////////////
-    jQuery(function() { // wait for document ready
+    /////////////////////////////// Scroll magic //////////////////////
+    jQuery(function() { 
    
         var animation =  $('*[class*="hidden"]');
   
-
-        //ADD FUNCTIONS
         animation.each(triggerAnimationOnScroll);
     
         function triggerAnimationOnScroll() {
@@ -44,18 +43,24 @@ $(document).ready(function() {
 
     });
 
-
-    // ////////////////////////////////////////////
+    ///////////////////////FANCYBOX/////////////////////////
+    
 
     $('[data-fancybox]').fancybox();
 
-    $('.items').isotope({
+    ////////////////////////////////ISOTOPE///////////////////
+
+    var $grid = $('.items').isotope({
         filter: '*',
         animationOptions: {
             duration: 1500,
             easing: 'linear',
             queue: false
         }
+      });
+
+    $grid.imagesLoaded().progress( function() {
+    $grid.isotope('layout');
     });
 
     $('#filters a').click(function() {
@@ -75,6 +80,8 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    ////////////////////////////////NAVBAR/////////////////////////////
 
     $("#navigation a.navbar-brand").click(function(e) {
 		e.preventDefault();
