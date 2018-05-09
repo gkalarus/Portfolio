@@ -1,9 +1,10 @@
 .skillsSection {
     background-color: $color-tertiary;
-    color: #fff;
-}
+    color: $color-white;
 
-#skills {
+    h2 {
+        text-transform: uppercase;
+    }
     text-align: center;
 
     header {
@@ -19,4 +20,11 @@
     .top-buffer { 
         margin-top:60px;
     }
+
+    .skillsDesc {
+        padding: 0 40px;
+        margin-top: 30px;
+        text-align: center;
+    }
 }
+

@@ -48,21 +48,31 @@
 
 #about {
   background-color: #FBFBFB; }
+  #about h4 {
+    text-transform: uppercase;
+    border-bottom: 4px solid #255965;
+    display: inline-block; }
+  #about p {
+    font-size: 20px; }
 
 .skillsSection {
   background-color: #255965;
-  color: #fff; }
-
-#skills {
+  color: #fff;
   text-align: center; }
-  #skills header {
+  .skillsSection h2 {
+    text-transform: uppercase; }
+  .skillsSection header {
     text-align: center;
     margin-bottom: 50px; }
-  #skills .skillIcon {
+  .skillsSection .skillIcon {
     -webkit-animation: pulsations 1s infinite alternate linear;
     animation: pulsations 1s infinite alternate linear; }
-  #skills .top-buffer {
+  .skillsSection .top-buffer {
     margin-top: 60px; }
+  .skillsSection .skillsDesc {
+    padding: 0 40px;
+    margin-top: 30px;
+    text-align: center; }
 
 .filter {
   text-align: center;
@@ -182,13 +192,13 @@
   padding: 20px 10px;
   z-index: 100;
   width: 100%; }
-
-#navigation li {
-  padding: 0 10px; }
-
-#navigation li a {
-  color: #032A33;
-  font-weight: 700; }
+  #navigation li {
+    padding: 0 10px; }
+    #navigation li a {
+      color: #032A33;
+      font-weight: 700; }
+  #navigation .navbar-nav {
+    text-transform: uppercase; }
 
 .navbar-brand {
   color: #032A33;
@@ -229,7 +239,9 @@
   padding: 0; }
 
 body {
-  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
   color: #032A33;
   letter-spacing: 1px; }
 
