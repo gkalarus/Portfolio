@@ -3,8 +3,8 @@
     width: 100%;
     
     .current {
-        background-color: #e74c3c;
-        border-color: #e74c3c;
+        background-color: $color-red;
+        border-color: $color-red;
         color: #fff;
     }
 
@@ -26,7 +26,11 @@
 .section .heading {
     text-align: center;
     padding-bottom: 40px;
-    width: 100%
+    width: 100%;
+    h2 {
+        display: inline-block;
+        border-bottom: 4px solid $color-tertiary;
+    }
 }
 
 .itemsContainer {
@@ -51,7 +55,7 @@
     a {
         width: 40px;
         height: 40px;
-        background-color: #e74c3c;
+        background-color: $color-red;
         position: relative;
         display: inline-block;
         -webkit-transition: all .2s linear, .2s;
