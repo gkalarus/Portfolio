@@ -10,6 +10,7 @@
         margin-top: 20px;
         border: 1px solid $color-primary-light;
         border-radius: 2px;
+
         &:hover {
             text-decoration: none;
             color: $color-black;
@@ -23,18 +24,16 @@
             display: inline-block;
             margin: 20px 15px 15px 15px;
         }
+
         .fab {
             font-size: 40px;
             color: $color-primary-light;
+
             &:hover {
                 color: $color-primary;
             }
         }
     }
-    
-    
+
+
 }
-
-
-
-

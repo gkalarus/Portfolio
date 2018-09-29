@@ -8,6 +8,7 @@
 
 .slides-navigation {
     z-index: 6;
+
     .prev,
     .next {
         width: 47px;
@@ -21,6 +22,7 @@
             left: 20px;
             background-image: url(../img/icons/prev.png);
         }
+
         &.next {
             right: 20px;
             background-image: url(../img/icons/next.png);
@@ -36,7 +38,7 @@
     z-index: 5;
     text-align: center;
     margin-top: -125px;
-    
+
     .heading {
         p {
             color: $color-white;
@@ -54,4 +56,3 @@
         }
     }
 }
-

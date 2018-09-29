@@ -5,6 +5,7 @@
     h2 {
         text-transform: uppercase;
     }
+
     text-align: center;
 
     header {
@@ -14,11 +15,11 @@
 
     .skillIcon {
         -webkit-animation: pulsations 1s infinite alternate linear;
-                animation: pulsations 1s infinite alternate linear;
+        animation: pulsations 1s infinite alternate linear;
     }
 
-    .top-buffer { 
-        margin-top:60px;
+    .top-buffer {
+        margin-top: 60px;
     }
 
     .skillsDesc {
@@ -28,4 +29,3 @@
         font-size: 20px;
     }
 }
-
